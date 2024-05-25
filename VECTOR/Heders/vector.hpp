@@ -584,7 +584,8 @@ int Vector<T, Allocator>::compare(const Vector& other) const
     return 0;
 }
 
-//++++++++++++++++++++++++++++++++++++++++
+//////////////////////////////////////////////////////
+
 template <typename T, typename Allocator>
 Vector<T, Allocator>::const_iterator::const_iterator(pointer ptr)
     : ptr{ptr}
