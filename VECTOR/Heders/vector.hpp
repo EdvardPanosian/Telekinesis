@@ -890,11 +890,9 @@ bool Vector<T, Allocator>::const_reverse_iterator::operator>=(const const_revers
 {
     return ptr >= other.ptr;
 }
-     
-//+++++++++++++++++++++++++++++++++++++++
-//+++++++++++++++++++++++++++++++++++++++
-//+++++++++++++++++++++++++++++++++++++++
-//+++++++++++++++++++++++++++++++++++++++
+     /////////////////////////////////////////////////////////
+
+
 template <typename T, typename Allocator>
 Vector<T, Allocator>::reverse_iterator::reverse_iterator(pointer ptr)
 {
@@ -971,27 +969,5 @@ Vector<T, Allocator>::reverse_iterator::operator[](size_type pos) const
 } 
 
 
-// template <typename T, typename Allocator>
-// void 
-// Vector<T, Allocator>::print()
-// {
-//     for (size_t i = 0; i < v_size; i++)
-//     {
-//         std::cout << this->arr[i] << " ";
-//     }
-    
-// }
-
-// template <typename T, typename Allocator>
-// std::ostream& operator<<(std::ostream& out, Vector<T, Allocator>& ob)
-// {      
-    
-//     for (size_t i = 0; i < ob.size(); i++) {
-        
-//         out << ob[i] << ' ';
-//     }
-    
-//     return out;
-// }
 
 
