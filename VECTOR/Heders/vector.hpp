@@ -778,9 +778,10 @@ Vector<T, Allocator>::iterator::operator[](size_type pos) const
     return this->ptr[pos];
 }
 
-//++++++++++++++++++++++++++++++++++++++++
-//++++++++++++++++++++++++++++++++++++++++
-//++++++++++++++++++++++++++++++++++++++++
+
+
+/////////////////////////////////////////////////////////////
+
 template <typename T, typename Allocator>
 Vector<T, Allocator>::const_reverse_iterator::const_reverse_iterator(pointer ptr)
     : ptr{ptr}
